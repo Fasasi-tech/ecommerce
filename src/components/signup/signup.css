@@ -1,0 +1,17 @@
+.sign-up{
+    padding: 0.5rem 2rem; 
+    border: none;
+    outline:none;
+    font-size:large;
+    background-color:rgb(230, 230, 230);
+    border: 1px solid black;
+    cursor:pointer;
+    transition: all;
+    font-family:  'Federo', sans-serif; 
+}
+
+.sign-up:hover{
+    background-color: black;
+    color:white;
+    transition-duration: 1s;
+}

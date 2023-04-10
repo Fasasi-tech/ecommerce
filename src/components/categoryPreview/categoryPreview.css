@@ -1,0 +1,40 @@
+.shop-div{
+    display:flex;
+    flex-wrap: wrap;
+    max-width:100%;
+    gap:1rem;
+    padding:5px  5px;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    /*margin:0 30px;*/
+
+}
+
+.home-title{
+    font-size:2rem;
+    /*padding-left:5px;*/
+    display:flex;
+    justify-content: center;
+    color:#03C04A;
+    margin-bottom:1rem ;
+    text-decoration: none;
+}
+h2{
+    text-decoration: none;
+}
+Link{
+    text-decoration:none;
+}
+
+@media only screen and (max-width :500px){
+    .shop-div{
+        display: flex;
+        max-width: 100%;
+        margin-bottom: 3rem;
+        padding:0px  10px;
+        margin:0 auto;
+    }
+
+    
+}

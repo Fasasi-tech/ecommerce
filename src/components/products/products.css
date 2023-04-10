@@ -1,0 +1,81 @@
+.products_img{
+    width:13rem;
+    height:12rem;
+    border-radius:10px;
+    
+   
+}
+@media only screen and (max-width :500px){
+    .products_img{
+         width:17rem;
+         height:12rem;
+         border-radius:10px;
+       
+    }  
+}
+.fred{
+    /*display:flex;
+    flex-direction: column;*/
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0,0,0,0.3) 0px 30px 60px -30px;
+    /*border:1px solid rgb(187, 187, 187);*/
+    padding:10px 10px 0px 10px;
+    background-color: rgb(235, 230, 230);
+    font-family:sans-serif;
+    
+}
+
+.icon-add{
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    width:100%;
+    
+}
+.span-div{
+   /* display: flex;
+    align-items: center;
+    justify-items: space-between;
+    column-gap: 4rem;*/
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    line-height: 0.1;
+}
+.icon-add{
+    line-height: 0.1;
+    margin-top: -20px;
+}
+.icon-p{
+    display:flex;
+    align-items: center;
+    justify-items: center;
+    color:#03C04A;
+    font-size: 1.2rem;
+}
+.cart-button{
+    border:none;
+    background-color: rgb(235, 230, 230);
+    color:#03C04A;
+    font-size:1.2rem;
+    cursor:pointer;
+}
+.price-name{
+    display:flex;
+    align-items: center;
+    justify-content:space-between;
+    width:100%;
+}
+.icon-naira{
+    display:flex;
+    align-items: center;
+    font-size: 1.2rem;
+
+}
+.pa-div{
+    display:flex;
+    width:100%;
+    align-items: center;
+    justify-content: space-between;
+
+    
+}

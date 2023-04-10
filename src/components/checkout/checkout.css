@@ -1,0 +1,104 @@
+.image-url{
+    width:8rem;
+}
+.table-data{
+    max-width:1000px;
+    margin:0 auto;
+    position:relative;
+    font-family: sans-serif;
+    padding: 0 20px;
+}
+
+th, td{
+    padding:0 4rem;
+}
+ td{
+    padding-top: 2rem;
+ }
+
+ .font-icon{
+    font-size: 1.2rem;
+ }
+ .data-row{
+    display:flex;
+    justify-content: center;
+    column-gap: 1rem;
+
+ }
+
+ .plus-icon{
+    background-color: #03C04A;
+    padding:3px;
+    color:white;
+    border-radius:5px;
+    font-size:16px;
+    font-weight:bolder;
+ }
+
+ .minus-icon{
+    background-color: #03C04A;
+    padding:3px;
+    color:white;
+    font-weight:bolder;
+    border-radius:5px;
+    font-size:16px;
+ }
+
+ .font-icon{
+    color: #03C04A;
+ }
+
+ .cart-total{
+   position:absolute;
+   right:0;
+   margin-right: 10px;
+ }
+
+.image-div{
+   display:flex;
+   align-items: center;
+   justify-content: space-between;
+   column-gap: 10px;
+}
+
+.quantity-div{
+   display:flex;
+   justify-content: space-between;
+   align-items: center;
+   column-gap:3px;
+}
+
+.header-div{
+   display: flex;
+   justify-content: space-between;
+}
+
+.div-header{
+   display:flex;
+   justify-content:space-between;
+   align-items: center;
+   margin-bottom: 2rem;
+
+}
+.delete-icon{
+   font-weight:bold;
+   color:#03C04A;
+   cursor:pointer;
+}
+.item-price{
+   font-weight: bold;
+}
+   .item-name{
+      width: 5rem;
+      font-weight: bold;
+   }
+
+
+@media only screen and (max-width :500px){
+   .image-div{
+      line-height: 0.3cm;
+   }
+   .image-url{
+      width:5rem;
+   }
+}
